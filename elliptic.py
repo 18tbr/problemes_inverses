@@ -279,7 +279,7 @@ def main():
     # Optimisation hiérarchique
     nopt = 1
     qinit = np.ones(nopt)
-    for i in range(5):
+    for i in range(6):
         print(f"\nOptimisation hierarchique {nopt}\n")
         dopt = 1.0 / nopt
         xopt = np.linspace(dopt / 2, 1 - dopt / 2, nopt)
